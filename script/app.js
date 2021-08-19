@@ -124,7 +124,7 @@ function drawClock(date) {
   }
 
 const init = () => {
-    html_toggle = document.querySelector(".js-celcius");
+    html_toggle = document.querySelector(".js-analog");
 
     mode = false;
     html_toggle.addEventListener("click", changeMode);
